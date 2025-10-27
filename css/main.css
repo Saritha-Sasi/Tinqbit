@@ -413,7 +413,7 @@
 }
 
 .divider-image-8 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: url(../img/abt-10.webp);
 }
 
 .divider-image-9 {
@@ -489,7 +489,7 @@
 }
 
 .headline-img-06::before {
-  background-image: url(https://dummyimage.com/400x200/5d5d5d/838383);
+  background-image: url(../img/abt-1.png);
 }
 
 .headline-img-07::before {
@@ -497,11 +497,11 @@
 }
 
 .image-values-1 {
-  background-image: url(https://dummyimage.com/1200x1600/5d5d5d/838383);
+  background-image: url(../img/abt-2.png);
 }
 
 .image-values-2 {
-  background-image: url(https://dummyimage.com/1600x1200/5d5d5d/838383);
+  background-image: url(../img/abt-3.png);
 }
 
 .prj-details-img-01 {
