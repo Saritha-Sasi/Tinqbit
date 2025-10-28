@@ -425,27 +425,27 @@
 }
 
 .mxd-promo__bg {
-  background-image: url(https://dummyimage.com/1400x900/838383/5d5d5d);
+  background-image: url(../img/1440x900_cta-01.webp);
 }
 
 .preview-image-1 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: url(../img/Travit.png);
 }
 
 .preview-image-2 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: url(../img/kfe.png);
 }
 
 .preview-image-3 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: url(../img/behive.png);
 }
 
 .preview-image-4 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: url(../img/nadan.png);
 }
 
 .preview-image-5 {
-  background-image: url(https://dummyimage.com/1400x1400/5d5d5d/838383);
+  background-image: url(../img/fundget.png);
 }
 
 .preview-image-6 {
@@ -457,15 +457,15 @@
 }
 
 .blog-preview-image-1 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/bog1.webp);
 }
 
 .blog-preview-image-2 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/blog2.webp);
 }
 
 .blog-preview-image-3 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/blog3.webp);
 }
 
 .headline-img-01::before {
@@ -4285,7 +4285,12 @@ form textarea:required:valid {
       -ms-flex-pack: left;
           justify-content: left;
   gap: 1rem;
+
+  
 }
+.mxd-logo .main-logo{
+width: 300px ;
+  }
 @media only screen and (min-width: 768px) {
   .mxd-logo {
     gap: 1.4rem;
@@ -5057,7 +5062,7 @@ form textarea:required:valid {
   background-repeat: no-repeat;
   background-position: center;
   -moz-background-size: cover;
-       background-size: cover;
+       background-size: contain;
 }
 @media only screen and (min-width: 768px) {
   .mxd-project-item__preview {
@@ -19674,7 +19679,7 @@ form textarea:required:valid {
   gap: 2.6rem;
   width: 100%;
   height: 100%;
-  padding: 3rem;
+  padding: 2rem;
 }
 .mxd-tech-stack-cards__inner::before {
   content: "";
