@@ -19640,7 +19640,7 @@ width: 300px ;
 /* ------------------------------------------------*/
 .mxd-tech-stack-cards {
   position: relative;
-}
+}/*
 .mxd-tech-stack-cards.grid-cards {
   display: -ms-grid;
   display: grid;
@@ -19661,7 +19661,7 @@ width: 300px ;
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
+*/
 .mxd-tech-stack-cards__item {
   position: relative;
 }
