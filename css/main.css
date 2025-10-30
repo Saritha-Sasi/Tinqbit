@@ -116,7 +116,7 @@
   --base-shade--light: #e0dddb;
   --base-opp--light: #161616;
   --base-opp-tint--light: #1C1C1C;
-  --accent--light: #9F8BE7;
+  --accent--light:#45bfe4;
   --accent-rgb--light: 159, 139, 231;
   --additional--light: #DDF160;
   --additional-rgb--light: 221, 241, 96;
@@ -147,6 +147,8 @@
   --bg-demo-screen-07--light: url(../img/demo/screens/07.webp);
   --bg-demo-screen-08--light: url(../img/demo/screens/08.webp);
   --bg-demo-screen-09--light: url(../img/demo/screens/09.webp);
+    --bg-demo-screen-10--light: url(../img/logo-dark.png);
+
   /* dark color scheme */
   --base--dark: #161616;
   --base-rgb--dark: 22, 22, 22;
@@ -156,7 +158,7 @@
   --base-opp-tint--dark: #ffffff;
   --accent--dark: #DDF160;
   --accent-rgb--dark: 221, 241, 96;
-  --additional--dark: #9F8BE7;
+  --additional--dark:#45bfe4;
   --additional-rgb--dark: 159, 139, 231;
   --neutral-transparent--dark: rgba(0, 0, 0, 0.3);
   --st-bright--dark: #FFFFFF;
@@ -185,6 +187,8 @@
   --bg-demo-screen-07--dark: url(../img/demo/screens/07-d.webp);
   --bg-demo-screen-08--dark: url(../img/demo/screens/08-d.webp);
   --bg-demo-screen-09--dark: url(../img/demo/screens/09-d.webp);
+    --bg-demo-screen-10--dark: url(../img/logo.png);
+
   /* permanent colors */
   --pt-base: #FFFFFF;
   --pt-base-dark: #161616;
@@ -251,6 +255,8 @@
     --bg-demo-screen-07: var(--bg-demo-screen-07--light);
     --bg-demo-screen-08: var(--bg-demo-screen-08--light);
     --bg-demo-screen-09: var(--bg-demo-screen-09--light);
+        --bg-demo-screen-10: var(--bg-demo-screen-10--light);
+
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -292,6 +298,8 @@
     --bg-demo-screen-07: var(--bg-demo-screen-07--dark);
     --bg-demo-screen-08: var(--bg-demo-screen-08--dark);
     --bg-demo-screen-09: var(--bg-demo-screen-09--dark);
+        --bg-demo-screen-10: var(--bg-demo-screen-10--dark);
+
   }
 }
 [color-scheme=light] {
@@ -332,6 +340,8 @@
   --bg-demo-screen-07: var(--bg-demo-screen-07--light);
   --bg-demo-screen-08: var(--bg-demo-screen-08--light);
   --bg-demo-screen-09: var(--bg-demo-screen-09--light);
+    --bg-demo-screen-10: var(--bg-demo-screen-10--light);
+
 }
 
 [color-scheme=dark] {
@@ -372,6 +382,8 @@
   --bg-demo-screen-07: var(--bg-demo-screen-07--dark);
   --bg-demo-screen-08: var(--bg-demo-screen-08--dark);
   --bg-demo-screen-09: var(--bg-demo-screen-09--dark);
+    --bg-demo-screen-10: var(--bg-demo-screen-10--dark);
+
 }
 
 /* ------------------------------------------------*/
@@ -393,7 +405,7 @@
 }
 
 .divider-image-3 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: url(../img/contact.jpg);
 }
 
 .divider-image-4 {
@@ -461,7 +473,7 @@
 }
 
 .blog-preview-image-2 {
-  background-image: url(../img/blog2.webp);
+  background-image: url(../img/blog2.png);
 }
 
 .blog-preview-image-3 {
@@ -757,7 +769,7 @@ html.lenis, html.lenis body {
   padding-bottom: 2.2rem;
 }
 .mxd-section.padding-default {
-  padding-bottom: 14rem;
+  padding-bottom: 9rem;
 }
 .mxd-section.padding-default.mobile-title {
   padding-bottom: 13rem;
@@ -887,7 +899,7 @@ html.lenis, html.lenis body {
     padding-bottom: 11.6rem;
   }
   .mxd-section.padding-mtext-pre-grid {
-    padding-bottom: 10.6rem;
+    padding-bottom: 9rem;
   }
   .mxd-section.padding-mtext-pre-grid.mobile-grid-s {
     padding-bottom: 10.6rem;
@@ -915,7 +927,7 @@ html.lenis, html.lenis body {
     padding-bottom: 7.2rem;
   }
   .mxd-section.padding-default {
-    padding-bottom: 16rem;
+    padding-bottom: 9rem;
   }
   .mxd-section.padding-default.mobile-title {
     padding-bottom: 14.5rem;
@@ -933,10 +945,10 @@ html.lenis, html.lenis body {
     padding-bottom: 13rem;
   }
   .mxd-section.padding-pre-grid.mobile-grid-title {
-    padding-bottom: 13rem;
+    padding-bottom: 11rem;
   }
   .mxd-section.padding-pre-title {
-    padding-bottom: 14.3rem;
+    padding-bottom: 10.3rem;
   }
   .mxd-section.padding-pre-manifest {
     padding-bottom: 13.9rem;
@@ -976,7 +988,7 @@ html.lenis, html.lenis body {
     padding-bottom: 11rem;
   }
   .mxd-section.padding-default {
-    padding-bottom: 20rem;
+    padding-bottom: 9rem;
   }
   .mxd-section.padding-default.mobile-title {
     padding-bottom: 20rem;
@@ -1557,12 +1569,12 @@ html.lenis, html.lenis body {
 }
 @media only screen and (min-width: 1200px) {
   .inner-headline__text {
-    margin-top: 4.6rem;
+    margin-top: 6.6rem;
   }
 }
 @media only screen and (min-width: 1600px) {
   .inner-headline__text {
-    margin-top: 5.9rem;
+    margin-top: 7.9rem;
   }
 }
 
@@ -4288,9 +4300,14 @@ form textarea:required:valid {
 
   
 }
-.mxd-logo .main-logo{
-width: 300px ;
+.mxd-logo {
+    width: 300px;
+    background-image:var(--bg-demo-screen-10);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+  
 @media only screen and (min-width: 768px) {
   .mxd-logo {
     gap: 1.4rem;
@@ -5772,7 +5789,7 @@ width: 300px ;
             flex-direction: row;
     overflow: hidden;
     padding-top: 0;
-    padding-bottom: 9.7rem;
+    padding-bottom: 6.7rem;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -5943,7 +5960,7 @@ width: 300px ;
 }
 @media only screen and (min-width: 1200px) {
   .main-menu__accordion {
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
@@ -6493,7 +6510,7 @@ width: 300px ;
 @media only screen and (min-width: 768px) {
   .mxd-footer__fullwidth-text {
     padding: 0 6rem;
-    padding-top: 10.5rem;
+    padding-top: 5rem;
     margin-bottom: 0;
   }
 }
@@ -6505,7 +6522,7 @@ width: 300px ;
 @media only screen and (min-width: 1600px) {
   .mxd-footer__fullwidth-text {
     padding: 0 9rem;
-    padding-top: 11.1rem;
+    padding-top: 6.5rem;
     margin-bottom: -1rem;
   }
 }
@@ -6666,12 +6683,12 @@ width: 300px ;
 }
 @media only screen and (min-width: 1200px) {
   .footer-blocks__column {
-    height: 650px;
+    height: 588px;
   }
 }
 @media only screen and (min-width: 1600px) {
   .footer-blocks__column {
-    height: 650px;
+    height: 588px;
   }
 }
 
@@ -12424,7 +12441,7 @@ width: 300px ;
 }
 @media only screen and (min-width: 1200px) {
   .widget-ad {
-    height: 460px;
+    height: 409px;
   }
 }
 
@@ -17414,7 +17431,7 @@ width: 300px ;
     bottom: -160px;
   }
   .mxd-services-cards-s__image.image-bottom-2 {
-    bottom: -260px;
+    bottom: -93px;
   }
   .mxd-services-cards-s__image.image-top {
     width: 100%;
@@ -17435,7 +17452,7 @@ width: 300px ;
     bottom: -200px;
   }
   .mxd-services-cards-s__image.image-bottom-2 {
-    bottom: -350px;
+    bottom: -140px;
   }
   .mxd-services-cards-s__image.image-top {
     max-width: 470px;
@@ -18180,7 +18197,7 @@ width: 300px ;
 }
 @media only screen and (min-width: 768px) {
   .marquee__text {
-    font-size: 12rem;
+    font-size: 9rem;
   }
   .marquee__text.text-xl {
     font-size: 30rem;
@@ -18188,7 +18205,7 @@ width: 300px ;
 }
 @media only screen and (min-width: 1200px) {
   .marquee__text {
-    font-size: 12rem;
+    font-size: 9rem;
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -19569,7 +19586,7 @@ width: 300px ;
 
 .mxd-partners-cards__item {
   position: relative;
-  height: 250px;
+  height: 140px;
 }
 
 .mxd-partners-cards__inner {
@@ -19823,7 +19840,8 @@ width: 300px ;
   width: 4.4rem;
   height: auto;
 }
-.mxd-tech-stack-cards__logo svg {
+.mxd-tech-stack-cards__logo svg ,.mxd-tech-stack-cards__logo svg path,.mxd-tech-stack-cards__logo text,
+.mxd-tech-stack-cards__logo polygon,.mxd-tech-stack-cards__logo svg rect{
   fill: currentColor;
 }
 
