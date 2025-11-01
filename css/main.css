@@ -116,9 +116,9 @@
   --base-shade--light: #e0dddb;
   --base-opp--light: #161616;
   --base-opp-tint--light: #1C1C1C;
-  --accent--light:#45bfe4;
+  --accent--light: #044254;
   --accent-rgb--light: 159, 139, 231;
-  --additional--light: #DDF160;
+  --additional--light:#45bfe4 ;
   --additional-rgb--light: 221, 241, 96;
   --neutral-transparent--light: rgba(255, 255, 255, 0.3);
   --st-bright--light: #161616;
@@ -153,12 +153,12 @@
   --base--dark: #161616;
   --base-rgb--dark: 22, 22, 22;
   --base-tint--dark: #1C1C1C;
-  --base-shade--dark: #0a0a0a;
+  --base-shade--dark: #030101ff;
   --base-opp--dark: #FAF7F6;
   --base-opp-tint--dark: #ffffff;
-  --accent--dark: #DDF160;
+  --accent--dark: #45bfe4;
   --accent-rgb--dark: 221, 241, 96;
-  --additional--dark:#45bfe4;
+  --additional--dark: #044254;
   --additional-rgb--dark: 159, 139, 231;
   --neutral-transparent--dark: rgba(0, 0, 0, 0.3);
   --st-bright--dark: #FFFFFF;
@@ -4316,6 +4316,27 @@ form textarea:required:valid {
     background-size: contain;
   }
   
+  @media only screen and (max-width: 450px) {
+
+.mxd-logo {
+    width: 150px !important;
+}
+.btn-mobile-icon ,.mxd-nav__hamburger{
+    width: 3.6rem !important;
+    height: 3.6rem !important;
+}
+}
+
+  @media (min-width: 451px)  and (max-width: 750px) {
+
+.mxd-logo {
+    width: 200px !important;
+}
+.btn-mobile-icon ,.mxd-nav__hamburger{
+    width: 3.6rem !important;
+    height: 3.6rem !important;
+}
+}
 @media only screen and (min-width: 768px) {
   .mxd-logo {
     gap: 1.4rem;
@@ -5565,6 +5586,7 @@ form textarea:required:valid {
   display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  place-items: center;
 }
 @media only screen and (min-width: 768px) {
   .mxd-header__controls {
@@ -6013,9 +6035,9 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1200px) {
   .main-menu__link {
-    font-size: 5.6rem;
-    height: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 4.6rem;
+    height: 5.56rem;
+    line-height: 5.56rem;
   }
   .main-menu__link .btn-caption {
     height: 6.5rem;
