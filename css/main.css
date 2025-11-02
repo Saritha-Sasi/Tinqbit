@@ -6028,8 +6028,8 @@ form textarea:required:valid {
 @media only screen and (min-width: 1200px) {
   .main-menu__link {
     font-size: 4.6rem;
-    height: 5.5rem;
-    line-height: 5.5rem;
+    height: 5.56rem;
+    line-height: 5.56rem;
   }
   .main-menu__link .btn-caption {
     height: 6.5rem;
