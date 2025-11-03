@@ -20904,7 +20904,7 @@ form textarea:required:valid {
 @media only screen and (min-width: 1200px) {
   .mxd-project__paragraph {
     margin-top: 0.4rem;
-    gap: 3rem;
+    gap: 1rem;
   }
   .mxd-project__paragraph.medium-text {
     margin-top: 0.8rem;
