@@ -531,7 +531,18 @@
 .prj-details-img-02 {
   background-image: url(https://dummyimage.com/1920x1200/414141/636363);
 }
-
+.prj-details-img-03 {
+  background-image: url(../img/kfe.png);
+}
+.prj-details-img-04 {
+  background-image: url(../img/behive.png);
+}
+.prj-details-img-05 {
+  background-image: url(../img/nadan.png);
+}
+.prj-details-img-06 {
+  background-image: url(../img/fundget.png);
+}
 /* ------------------------------------------------*/
 /* Template Backgrounds End */
 /* ------------------------------------------------*/
@@ -1897,7 +1908,7 @@ h1 {
 }
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 8rem;
+    font-size: 7rem;
   }
   h1.h1-small {
     font-size: 9rem;
@@ -1905,7 +1916,7 @@ h1 {
 }
 @media only screen and (min-width: 1200px) {
   h1 {
-    font-size: 10rem;
+    font-size: 8rem;
   }
   h1.h1-small {
     font-size: 9rem;
@@ -1918,7 +1929,7 @@ h1 {
 }
 @media only screen and (min-width: 1600px) {
   h1 {
-    font-size: 12rem;
+    font-size: 10rem;
   }
   h1.h1-small {
     font-size: 9rem;
