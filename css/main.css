@@ -529,7 +529,19 @@
 }
 
 .prj-details-img-02 {
-  background-image: url(https://dummyimage.com/1920x1200/414141/636363);
+  background-image: url(../img/Travit.png);
+}
+.prj-details-img-07 {
+  background-image: url(../img/CMS.png);
+}
+.prj-details-img-08 {
+  background-image: url(../img/IOT.png);
+}
+.prj-details-img-09 {
+  background-image: url(../img/seabit.png);
+}
+.prj-details-img-10 {
+  background-image: url(../img/EMCON.png);
 }
 .prj-details-img-03 {
   background-image: url(../img/kfe.png);
