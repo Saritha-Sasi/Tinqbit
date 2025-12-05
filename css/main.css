@@ -19132,6 +19132,12 @@ form textarea:required:valid {
   position: relative;
   max-width: 12rem;
 }
+.mxd-testimonials-card__company .company-name
+{
+ font-size: 50px;
+ color: #000;
+ font-weight: 600;
+}
 @media only screen and (min-width: 768px) {
   .mxd-testimonials-card__company {
     max-width: 18rem;
