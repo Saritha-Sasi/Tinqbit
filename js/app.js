@@ -1507,3 +1507,24 @@ gsap.to("[data-speed]", {
 // --------------------------------------------- //
 // Parallax Universal End
 // --------------------------------------------- //
+
+
+
+// --------------------------------------------- //
+// Download Pdf Start
+// --------------------------------------------- //
+
+function openPDF() {
+  // Open PDF in new tab
+  window.open('./img/Tinqbit-portfolio.pdf', '_blank');
+
+  // Auto-download
+  const link = document.createElement('a');
+  link.href = './img/Tinqbit-portfolio.pdf';
+  link.download = 'Tinqbit-portfolio.pdf';
+  link.click();
+}
+
+// --------------------------------------------- //
+// Download Pdf End
+// --------------------------------------------- //
