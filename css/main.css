@@ -21146,7 +21146,11 @@ form textarea:required:valid {
 }
 
 
+.loader__count
+{
 
+  display: none;
+}
 .loader__content
 {
   height: 250px;
