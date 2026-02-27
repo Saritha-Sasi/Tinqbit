@@ -790,10 +790,10 @@ html.lenis, html.lenis body {
 /* Whatsapp */
 .whatsapp-float {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 20px;
-    right: 20px;
+      right: 3rem;
+  bottom: 7rem;
+  width: 4.6rem;
+  height: 4.6rem;
     background-color: #25D366;
     border-radius: 50%;
     display: flex;
@@ -1194,7 +1194,7 @@ html.lenis, html.lenis body {
 }
 
 .mxd-section-inner-headline.padding-default {
-  padding-bottom: 14rem;
+  padding-bottom: 10rem;
 }
 .mxd-section-inner-headline.padding-headline-pre-block {
   padding-bottom: 13rem;
@@ -2633,8 +2633,8 @@ p.t-semibold {
 
 .btn-to-top {
   position: fixed;
-  right: 3rem;
-  bottom: 3rem;
+  right: 2.5rem;
+  bottom: .7rem;
   width: 4.6rem;
   height: 4.6rem;
   -moz-border-radius: 50%;
@@ -2674,9 +2674,15 @@ p.t-semibold {
           transform: scale(1.04);
 }
 @media only screen and (min-width: 768px) {
-  .btn-to-top {
+  .btn-to-top{
     right: 6rem;
-    bottom: 4rem;
+    bottom: 1rem;
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+  .whatsapp-float {
+    right: 6rem;
+    bottom: 7rem;
     width: 5.6rem;
     height: 5.6rem;
   }
@@ -2686,6 +2692,9 @@ p.t-semibold {
 }
 @media only screen and (min-width: 1600px) {
   .btn-to-top {
+    right: 9rem;
+  }
+  .whatsapp-float {
     right: 9rem;
   }
 }
@@ -16561,6 +16570,11 @@ form textarea:required:valid {
     padding: 0 3rem;
   }
 }
+@media only screen and (max-width: 1199px) {
+  .mxd-projects-masonry__btngroup {
+    text-align: center;
+  }
+}
 
 /* ------------------------------------------------*/
 /* Features - Projects Masonry End */
@@ -21130,6 +21144,52 @@ form textarea:required:valid {
     font-size: 3.4rem;
   }
 }
+
+
+
+.loader__content
+{
+  height: 250px;
+}
+.loader__brand {
+  position: absolute;
+  top: calc(50% - 2rem);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.6rem;
+  font: normal var(--fw-bold) 7rem var(--_font-accent);
+  letter-spacing: -0.05rem;
+}
+
+.loader__brand span {
+  display: inline-block;
+  color: var(--t-muted);
+  animation: tinqbitWave 1.4s infinite ease-in-out;
+}
+
+/* Delay each letter */
+.loader__brand span:nth-child(1) { animation-delay: 0s; }
+.loader__brand span:nth-child(2) { animation-delay: 0.1s; }
+.loader__brand span:nth-child(3) { animation-delay: 0.2s; }
+.loader__brand span:nth-child(4) { animation-delay: 0.3s; }
+.loader__brand span:nth-child(5) { animation-delay: 0.4s; }
+.loader__brand span:nth-child(6) { animation-delay: 0.5s; }
+.loader__brand span:nth-child(7) { animation-delay: 0.6s; }
+
+@keyframes tinqbitWave {
+  0%, 100% {
+    transform: translateY(0);
+    color: var(--t-muted);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+    color: var(--accent);
+    text-shadow: 0 0 20px rgba(var(--accent-rgb), 0.6);
+  }
+}
+
+
 
 /* ------------------------------------------------*/
 /* Features - Project Details End */
